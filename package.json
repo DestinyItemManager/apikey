@@ -1,0 +1,25 @@
+{
+  "name": "@destiny-item-manager/apikey",
+  "version": "1.0.0",
+  "description": "Bungie.net API Key for Destiny Item Manager",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node_modules/typescript/bin/tsc --rootDir src --outDir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/DestinyItemManager/apikey.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DestinyItemManager/apikey/issues"
+  },
+  "homepage": "https://github.com/DestinyItemManager/apikey#readme",
+  "devDependencies": {
+    "codelyzer": "0.0.24",
+    "tslint": "^3.13.0",
+    "typescript": "^1.8.10"
+  }
+}
